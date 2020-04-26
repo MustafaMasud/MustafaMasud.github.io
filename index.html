@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+         <!--Makes sure website is scaled on all devices-->
+        <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+        <title>Mustafa's Portfolio Website</title>
+        <!--website looks the same in all browsers-->
+        <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"> 
+        <!--Importing Icons-->
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        
+    </head>
+    <body>
+        <header class="header">
+            <div clas="logo">
+                    <img>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class = "hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav_item"><a href="#projects" class="nav__link">My Projects</a></li>
+                    <li class="nav_item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav_item"><a href="#work" class="nav__link">My work</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <!--Introduction-->
+
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro"> Hey, my name is<strong>Mustafa Mohsin</strong></h1>
+            <p class="section__subtitle section__subtitle--intro">Business & CS Student   </p>
+
+            <img src="img/Head.jpg" alt="About me" class="intro_img">
+        </section>
+
+
+        <!--My projects-->
+        <section class="my-projects" id="projects">
+            <h2 class="section__title section__title--projects">My Projects</h2>
+            <div class = "Projects">
+                <div class="Project">
+                    <h3>Node.js</h3>
+                    <p>In Node.js I have created two projects and I am currently working on one. While building these Node projects
+                        I have learned express, handle bars, yargs and MongoDB. 
+                    </p>
+                </div>
+                <div class="Project">
+                    <h3>Java</h3>
+                    <p>Thus far, I have created only one project in Java, as this is not my preferred language. I created a Trivia game using 
+                        multiple Java libraries. 
+                    </p>
+                </div>
+                <div class="Project">
+                    <h3>HTML/CSS</h3>
+                    <p>This site was infact was built by HTML, CSS as well as minimal JavaScript. I have also completed a Udemy course that 
+                        revises advanced CSS such ass grids and sass!
+                    </p>
+                </div>
+            </div>
+
+
+            <a href="#work" class="btn">More of My Projects</a>
+
+            <p></p>
+
+
+
+        </section>
+
+        <!--About me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class ="section__subtitle section__subtitle--about"> A little about Me</p>
+
+
+            <div class="about-me__body">
+                <p>My name is Mustafa Mohsin. I am a third year student at WLU pursuing a Bacherlor of Business Administration
+                    and a Bachelor of Computer Science. My name is Mustafa Mohsin. I am a third year student at WLU pursuing a Bacherlor of Business Administration
+                    and a Bachelor of Computer Science.My name is Mustafa Mohsin. I am a third year student at WLU pursuing a Bacherlor of Business Administration
+                    and a Bachelor of Computer Science.My name is Mustafa Mohsin. I am a third year student at WLU pursuing a Bacherlor of Business Administration
+                    and a Bachelor of Computer Science.My name is Mustafa Mohsin. I am a third year student at WLU pursuing a Bacherlor of Business Administration
+                    and a Bachelor of Computer Science.My name is Mustafa Mohsin. I am a third year student at WLU pursuing a Bacherlor of Business Administration
+                    and a Bachelor of Computer Science.
+                </p>
+            </div>
+
+            <img src="img/Me2.jpg" alt="About me" class="about-me__img">
+        </section>
+        
+
+         <!--My work-->
+            <section class="my-work" id="work">
+                <h2 class="section__title">My work</h2>
+                <p class="section__subtitle--work">Highlight Project and link</p>
+
+                <div class="Portfolio">
+                    <!--Item1-->
+                    <a href="https://mustafamohsin-weather-app.herokuapp.com/" class="portfolio__item">
+                        <img src="img/weather.png" alt="About me" class="Portfolio__img">
+                        <p class="hidden-text">Weather App (Node.js)</p>
+                        
+                    </a>
+                    <!--Item2-->
+                    <a href="#" class="portfolio__item">
+                        
+                        
+                        <img src="img/task1.png" alt="About me" class="Portfolio__img">
+                        <p class="hidden-text">To-do App (Node.js)</p>
+                    </a>
+                    <!--Item3-->
+                    
+                    <a href="#" class="portfolio__item">
+
+                        <img src="img/trivia.png" alt="About me" class="Portfolio__img">
+                        <p class="hidden-text">Trivia App (Java)</p>
+                    </a>
+                </div>
+            </section>
+        
+
+        <!--Footer-->
+        <footer class="footer">
+            <a href="mailto:mustafa.mohsiny@gmail.com" class="footer-link">mustafa.mohsiny@gmail.com</a>
+            <ul class ="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href='https://github.com/MustafaMasud/'>
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                    
+                <li class="social-list__item">
+                    <a class="social-list__link" href='https://www.linkedin.com/in/mustafamohsin/'>
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+    
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
