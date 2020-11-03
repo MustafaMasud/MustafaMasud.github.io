@@ -266,13 +266,14 @@ nav ul{
 /*My projects*/
 .my-projects{
     background-color: var(--clr-dark);
-    background-image: url(../img/Linked.jpg);
+    /*background-image: url(../img/Linked.jpg);*/
     background-size: cover;
     color: var(--clr-light);
     text-align: center;
 }
 
 .section__title--projects{
+    margin-top: 0;
     color: var(--clr-accent);
     position: relative;
     text-align: center;
@@ -358,7 +359,7 @@ nav ul{
 }
 
 .my-work{
-    background-color: var(--clr-dark);
+    background: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;
 }
